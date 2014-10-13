@@ -4,6 +4,7 @@ Name        : 2048.c
 Author      : Maurits van der Schee
 Description : Console version of the game "2048" for GNU/Linux
 ============================================================================
+*
 Note by Zhengmingpei,China
 Time:2014.10.13
 Contact:http://Zhengmingpei.github.com
