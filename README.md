@@ -1,4 +1,5 @@
 2048.c
+##添加中文注释
 ======
 
 ![screenshot](http://www.leaseweblabs.com/wp-content/uploads/2014/03/20481.png)
