@@ -8,5 +8,7 @@
 *.so
 *.so.*
 
+# Backup file
+*~
 # Executables
 2048
