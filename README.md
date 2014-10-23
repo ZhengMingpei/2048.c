@@ -1,5 +1,5 @@
 2048.c
-##对原有的Linux控制台版本源码进行修改，移植到了Windows下。
+##Add Console version of the game "2048" for Windows.
 ======
 ![screenshot](https://github.com/ZhengMingpei/2048.c/blob/master/windows/windows2048.gif)
 
@@ -35,7 +35,7 @@ gcc -o 2048 2048.c
 ./2048
 ```
 
-### Running
+##### Running
 
 The game supports different color schemes. For the original color scheme run:
 
@@ -54,7 +54,7 @@ For the blue-to-red color scheme (requires 256 colors):
 ./2048 bluered
 ```
 
-### Contributing
+##### Contributing
 
 Contributions are very welcome. Always run the tests before committing using:
 
