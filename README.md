@@ -1,10 +1,13 @@
 2048.c
-##添加中文注释
+##对原有的Linux控制台版本源码进行修改，移植到了Windows下。
 ======
+Console version of the game "2048" for Windows
+(Compile by VS Express 2013 for desktop)
 
 ![screenshot](http://www.leaseweblabs.com/wp-content/uploads/2014/03/20481.png)
 
 Console version of the game "2048" for GNU/Linux
+(Compile by GCC)
 
 ### Gameplay
 
