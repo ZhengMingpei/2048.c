@@ -1,6 +1,7 @@
 2048.c
 ##对原有的Linux控制台版本源码进行修改，移植到了Windows下。
 ======
+![screenshot](https://github.com/ZhengMingpei/2048.c/blob/master/windows/windows2048.gif)
 Console version of the game "2048" for Windows
 (Compile by VS Express 2013 for desktop)
 
