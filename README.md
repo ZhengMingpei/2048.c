@@ -4,12 +4,10 @@
 ![screenshot](https://github.com/ZhengMingpei/2048.c/blob/master/windows/windows2048.gif)
 
 Console version of the game "2048" for Windows
-(Compile by VS Express 2013 for desktop)
 
 ![screenshot](http://www.leaseweblabs.com/wp-content/uploads/2014/03/20481.png)
 
 Console version of the game "2048" for GNU/Linux
-(Compile by GCC)
 
 ### Gameplay
 
@@ -17,11 +15,16 @@ You can move the tiles in four directions using the arrow keys: up, down, left, 
 
 ### Requirements
 
-- C compiler
-- GNU/Linux
+- GCC or VS Express 2013 for desktop
+- GNU/Linux or Windows
 
 ### Installation
 
+####For Windows version
+Get files: https://github.com/ZhengMingpei/2048.c/blob/master/windows/main.c, https://github.com/ZhengMingpei/2048.c/blob/master/windows/draw.h.
+Compile by VS Express 2013: New Project - VC++ - Blank project, add main.c and draw.h to the project, compile and run it.
+
+####For Linux version
 ```
 wget https://raw.githubusercontent.com/mevdschee/2048.c/master/2048.c
 gcc -o 2048 2048.c
