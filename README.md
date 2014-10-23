@@ -21,7 +21,7 @@ You can move the tiles in four directions using the arrow keys: up, down, left, 
 ### Installation
 
 ####For Windows version
-Get files: https://github.com/ZhengMingpei/2048.c/blob/master/windows/main.c, https://github.com/ZhengMingpei/2048.c/blob/master/windows/draw.h.
+Get files: https://github.com/ZhengMingpei/2048.c/blob/master/windows/main.c,https://github.com/ZhengMingpei/2048.c/blob/master/windows/draw.h,
 Compile by VS Express 2013: New Project - VC++ - Blank project, add main.c and draw.h to the project, compile and run it.
 
 ####For Linux version
