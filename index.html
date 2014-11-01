@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="2048.c : Console version of the game &quot;2048&quot; for GNU/Linux and Windows">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>2048.c</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/ZhengMingpei/2048.c">View on GitHub</a>
+
+          <h1 id="project_title">2048.c</h1>
+          <h2 id="project_tagline">Console version of the game &quot;2048&quot; for GNU/Linux and Windows</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/ZhengMingpei/2048.c/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/ZhengMingpei/2048.c/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>2048.c</p>
+
+<h2>
+<a name="add-console-version-of-the-game-2048-for-windows" class="anchor" href="#add-console-version-of-the-game-2048-for-windows"><span class="octicon octicon-link"></span></a>Add Console version of the game "2048" for Windows.</h2>
+
+<h1></h1>
+
+<p><img src="https://github.com/ZhengMingpei/2048.c/blob/master/windows/windows2048.gif" alt="screenshot"></p>
+
+<p>Console version of the game "2048" for Windows</p>
+
+<p><img src="http://www.leaseweblabs.com/wp-content/uploads/2014/03/20481.png" alt="screenshot"></p>
+
+<p>Console version of the game "2048" for GNU/Linux</p>
+
+<h3>
+<a name="gameplay" class="anchor" href="#gameplay"><span class="octicon octicon-link"></span></a>Gameplay</h3>
+
+<p>You can move the tiles in four directions using the arrow keys: up, down, left, and right. All numbers on the board will slide into that direction until they hit the wall and if they bump into each other then two numbers will be combined into one if they have the same value. Each number will only be combined once per move. Every move a new number 2 or 4 appears. If you have a 2048 on the board you have won, but you lose once the board is full and you cannot make a move. </p>
+
+<h3>
+<a name="requirements" class="anchor" href="#requirements"><span class="octicon octicon-link"></span></a>Requirements</h3>
+
+<ul>
+<li>GCC or VS Express 2013 for desktop</li>
+<li>GNU/Linux or Windows</li>
+</ul>
+
+<h3>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h3>
+
+<h4>
+<a name="for-windows-version" class="anchor" href="#for-windows-version"><span class="octicon octicon-link"></span></a>For Windows version</h4>
+
+<h5>
+<a name="get-files" class="anchor" href="#get-files"><span class="octicon octicon-link"></span></a>Get files</h5>
+
+<p><a href="https://github.com/ZhengMingpei/2048.c/blob/master/windows/main.c">https://github.com/ZhengMingpei/2048.c/blob/master/windows/main.c</a>,
+<a href="https://github.com/ZhengMingpei/2048.c/blob/master/windows/draw.h">https://github.com/ZhengMingpei/2048.c/blob/master/windows/draw.h</a>,</p>
+
+<h5>
+<a name="compile-by-vs-express-2013" class="anchor" href="#compile-by-vs-express-2013"><span class="octicon octicon-link"></span></a>Compile by VS Express 2013</h5>
+
+<p>New Project - VC++ - Blank project, add main.c and draw.h to the project, compile and run it.</p>
+
+<h4>
+<a name="for-linux-version" class="anchor" href="#for-linux-version"><span class="octicon octicon-link"></span></a>For Linux version</h4>
+
+<pre><code>wget https://raw.githubusercontent.com/mevdschee/2048.c/master/2048.c
+gcc -o 2048 2048.c
+./2048
+</code></pre>
+
+<h5>
+<a name="running" class="anchor" href="#running"><span class="octicon octicon-link"></span></a>Running</h5>
+
+<p>The game supports different color schemes. For the original color scheme run:</p>
+
+<pre><code>./2048
+</code></pre>
+
+<p>For the black-to-white color scheme (requires 256 colors):</p>
+
+<pre><code>./2048 blackwhite
+</code></pre>
+
+<p>For the blue-to-red color scheme (requires 256 colors):</p>
+
+<pre><code>./2048 bluered
+</code></pre>
+
+<h5>
+<a name="contributing" class="anchor" href="#contributing"><span class="octicon octicon-link"></span></a>Contributing</h5>
+
+<p>Contributions are very welcome. Always run the tests before committing using:</p>
+
+<pre><code>$ ./2048 test
+All 13 tests executed successfully
+</code></pre>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">2048.c maintained by <a href="https://github.com/ZhengMingpei">ZhengMingpei</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
